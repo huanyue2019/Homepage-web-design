@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			html {
+				background-color: #e8e7e7;
+				height: 100%;
+			}
+			
+			#left-sidebar {
+				float: left;
+				margin-top: 0px;
+				margin-left: 0px;
+				width: 650px;
+				height: 500px;
+				padding: 50px;
+				background-color: #e8e7e7;
+			}
+			
+			.circle {
+				width: 10rem;
+				height: 10rem;
+				background: #e8e7e7;
+				margin: 0px auto;
+				border-radius: 50%;
+				box-shadow: inset -2rem 0 yellow;
+			}
+			
+			.title {
+				font-family: 思源黑体;
+				color: white;
+				font-size: 48px;
+				text-align: center;
+			}
+			
+			.form-wrapper {
+				background: #E8E7E7;
+				/*button输入框的背景颜色*/
+				border-radius: 2px;
+				margin: 50px auto;
+				position: relative;
+				width: 350px;
+			}
+			/*控制输入框的长短*/
+			
+			.form-item input {
+				border: none;
+				background: wheat/*#e8e7e7*/
+				;
+				/*用户信息输入框的颜色*/
+				border-radius: 2px;
+				color: #fff;
+				font-size: 15px;
+				height: 50px;
+				padding: 0 16px;
+				transition: background 0.3s ease-in-out;
+				width: 91%;
+			}
+			/* 控制输入框的样式*/
+			
+			.form-item input:focus {
+				background: white;
+				/*鼠标键入之后的颜色*/
+				outline: none;
+			}
+			/*控制输入框的样式*/
+			
+			.button-panel {
+				margin: 20px 0 0;
+				width: 100%;
+			}
+			
+			.button-panel .button {
+				background: #E65932;
+				border: none;
+				border-radius: 2px;
+				color: #fff;
+				cursor: pointer;
+				height: 50px;
+				font-size: 18px;
+				letter-spacing: 2px;
+				text-align: center;
+				text-transform: uppercase;
+				transition: background 0.3s ease-in-out;
+				width: 100%;
+			}
+			
+			.button:hover {
+				background: #c6502f;
+			}
+			/*右边的css样式*/
+			
+			#right-sidebar {
+				margin: 30px;
+				background-image: url(img/彼岸花.png);
+				/*margin-right: 0px;
+				width: 300px;
+				height: 500px;*/
+				background-size: 60px*50px;
+			}
+			.features-list{
+				list-style: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="left-sidebar">
+			<div class="circle">
+			</div>
+			<br>
+			<div class="title">HOMETOWN</div>
+
+			<link href="" rel='stylesheet' type='text/css'>
+
+			<div class="form-wrapper">
+
+				<form>
+
+					<div class="form-item">
+						<label for="text">
+        <span class="fontawesome-user"></span></label>
+						<p>
+							<input type="text" name="text" required="required" placeholder="Username"></input>
+						</p>
+						<p>
+							<input type="text" name="text" required="required" placeholder="Password"></input>
+						</p>
+					</div>
+					<div class="button-panel">
+						<input type="submit" class="button" title="Sign In" value="Sign In"></input>
+					</div>
+
+				</form>
+
+			</div>
+		</div>
+
+		<!--右边部分-->
+		<div id="right-sidebar">
+			<br /><br /><br /><br />
+			<div class="setup-info-module">
+				<h2>欢迎登录家乡论坛</h2>
+				<ul class="features-list">
+					<li><strong>表达</strong>&nbsp;离开家乡的眷念</li>
+					<li><strong>展现</strong>&nbsp;你努力的成果</li>
+					<li><strong>追逐</strong>&nbsp;梦想的痕迹</li>
+
+					<br /><br />
+
+					<li>Great communication</li>
+					<li>Frictionless development</li>
+					<li>Open source community</li>
+					<li><img src="img/彼岸花.png" width="100px"height="150px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					    <img src="img/淡彼岸花.png" width="200px" height="250px" />
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>

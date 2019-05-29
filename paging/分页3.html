@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>甘肃风景</title>
+		<link href="css/分页3.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery.js"></script>
+	</head>
+
+	<body>
+
+		<!--LOGO，导航-->
+		<div class="nav-box">
+			<div class="nav">
+				<a href="">
+					<h1>GanSu</h1></a>
+
+				<div class="nav-r">
+					<ul>
+						<li class="daohang">
+							<a href="../家乡与远方主页.html">首页</a>
+						</li>
+						<li class="daohang">
+							<a href="">莫高窟</a>
+							<div>
+								<p>千佛洞</p>
+								<p>壁画</p>
+								<p>彩塑</p>
+								<p>文物宝库</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="">崆峒山</a>
+							<div>
+								<p>地质公园</p>
+								<p>自然保护区</p>
+								<p>西镇奇观</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="">鸣沙山</a>
+							<div>
+								<p>神沙山</p>
+								<p>鸣沙日落</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="" target="_blank">月牙泉</a>
+							<div>
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="" target="_blank">了解我们</a>
+							<div>
+								<p>创办初衷</p>
+								<p>创想实现</p>
+								<p>我们想说</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			/*初始状态*/
+			$(".daohang div").hide();
+
+			/*鼠标滑过事件*/
+			$(".daohang").mouseenter(function() {
+
+				$(".daohang div").slideUp();
+				$(this).children("div").slideDown();
+
+				$(this).addClass("current").siblings().removeClass("current");
+
+			}) /*鼠标离开事件*/ .mouseleave(function() {
+
+				$(".daohang div").slideUp();
+				$(".daohang").removeClass("current");
+			})
+		</script>
+
+		<!--banner部分-->
+		<div class="center1">
+			<a href=""><img src="../img/遇见飞天.jpg" height="500px"></a>
+		</div>
+		<br /><br /><br /><br />
+
+		<!--三栏文字部分-->
+		<table class="sanlanwenzi">
+			<tr>
+				<td align="center">
+					<div style="padding: 45px;">
+						<h3>SPRING</h3>
+						<h4>————</h4>
+						<span>空灵梦幻</span><br /><br />
+						<span style="font-family: 思源宋体;font-size: 10px;">月牙泉，梦一般的迷。因水面酷似一弯新月而得名，被誉为"塞外风光之一绝"。</span><br /><br />
+						<span style="font-family: 思源宋体;font-size: 12px;">A dream-like mystery</span>
+					</div>
+				</td>
+				<td align="center">
+					<div style="padding: 25px;">
+						<h3>CRESCENT</h3>
+						<h4>————</h4>
+						<span>空灵梦幻</span><br /><br />
+						<span style="font-family: 思源宋体;font-size: 10px;">月牙泉，梦一般的迷。因水面酷似一弯新月而得名，被誉为"塞外风光之一绝"。</span><br /><br />
+						<span style="font-family: 思源宋体;font-size: 12px;">A dream-like mystery</span>
+					</div>
+				</td>
+				<td align="center">
+					<div style="padding: 45px;">
+						<h3>SPRING</h3>
+						<h4>————</h4>
+						<span>空灵梦幻</span><br /><br />
+						<span style="font-family: 思源宋体;font-size: 10px;">月牙泉，梦一般的迷。因水面酷似一弯新月而得名，被誉为"塞外风光之一绝"。</span><br /><br />
+						<span style="font-family: 思源宋体;font-size: 12px;">A dream-like mystery</span>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<!--正文部分-->
+		<table class="gansuzhengwen">
+			<tr>
+				<td align="center">
+					<a href=""><img src="../img/山西皇城相府.jpg" width="500px" height="300px"></a>
+				</td>
+				<td align="center" width="400px" height="300px">
+					<div style="padding: 45px;">
+						<h1 style="letter-spacing: 15px;">CRESCENT SPRING</h1>
+						<h4>————</h4>
+						<span>空灵梦幻</span><br /><br />
+						<span style="font-family: 思源宋体;">月牙泉，梦一般的迷。因水面酷似一弯新月而得名，被誉为"塞外风光之一绝"。</span><br /><br /><br />
+						<span style="font-family: 思源宋体;">A dream-like mystery</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" width="400px" height="300px">
+					<div>
+						<h1 style="letter-spacing: 15px;">CRESCENT'S SPRING</h1>
+						<h4>————</h4>
+						<span>空灵梦幻</span><br /><br />
+						<span style="font-family: 思源宋体;">月牙泉，梦一般的迷。因水面酷似一弯新月而得名，被誉为"塞外风光之一绝"。</span><br /><br /><br />
+						<span style="font-family: 思源宋体;">A dream-like mystery</span>
+					</div>
+				</td>
+				<td align="center">
+					<a href="../三级页面/网页大赛/Untitled-1.html"><img src="../img/甘肃黑白灰.jpg" width="450px" height="300px"></a>
+				</td>
+			</tr>
+		</table>
+			
+		<table class="wangzhe">
+			<tr>
+				<td><a href="../三级页面/网页大赛/Untitled-1.html"><img src="../img/王者荣耀皮肤.jpg" width="300px" height="250px"></a></td>
+				<td align="left">
+					<div style="padding:40px;">
+						<span style="font-size: 16px;font-weight:bold;">2018.11.25</span>
+						<h4>————</h4>
+						<span style="font-weight: bold;">空灵梦幻</span><br /><br />
+						<span style="font-family: 思源宋体;font-size: 10px;">月牙泉，梦一般的迷。因水面酷似一弯新月而得名，被誉为"塞外风光之一绝"。</span><br /><br />
+						<span style="font-family: 思源宋体;font-size: 12px;">A dream-like mystery</span>
+					</div>
+				</td>
+				<td align="right">
+					<div style="padding: 45px;">
+						<h1 style="letter-spacing: 10px;">APSARAS FLYING</h1><br /><br />
+						<span style="font-family: 思源宋体;font-size: 12px;">Meet Apsaras</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+					<span style="font-weight: bold;letter-spacing: 6px;">08.08</span><br />
+					<span style="font-weight: bold;letter-spacing: 6px;">ENIOY</span><br />
+					<span style="font-weight: bold;letter-spacing: 6px;">APSARAS</span><br />
+					<span style="font-family: 思源宋体;font-size: 10px;letter-spacing: 3px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月牙泉，梦一般的迷。因水面酷似一弯新月而得名，被誉为"塞外风光之一绝"，每年都有许多游客慕名而来。</span><br />
+				</td>
+				<td style="padding: 10px;">
+					<a href="../三级页面/网页大赛/Untitled-3.html"><img src="../img/王者荣耀皮肤灰.jpg" width="290px" height="240px"/></a>
+				</td>
+				<td>
+					<a href="../三级页面/网页大赛/Untitled-3.html"><img src="../img/王者荣耀皮肤灰.jpg" width="290px" height="240px"/></a>
+				</td>
+			</tr>
+		</table>
+		<br /><br />
+		<!--最后一部分-->
+		<h1 align="center" style="letter-spacing: 8px;">fLYING APSARAS</h1>
+		
+		<table id="zuihou" cellspacing="15px" border="5px" bordercolor="white">
+			<tr>
+				<td>
+					
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;font-weight: bold;">See who I am through you.</span>
+					</div>
+					<a href="../三级页面/网页大赛/Untitled-1.html" class="three"><img src="../img/你能听见吗.jpg" width="250px" height="300px" /></a>
+				</td>
+				<td>
+					<a href="../三级页面/网页大赛/Untitled-2.html" class="three"><img src="../img/夕阳.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;font-weight: bold;">See who I am through you.</span>
+					</div>
+
+				</td>
+				<td>
+					<a href="../三级页面/网页大赛/Untitled-3.html" class="three"><img src="../img/山西皇城相府.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;font-weight: bold;">See who I am through you.</span>
+					</div>
+
+				</td>
+				<td>
+					
+					<div style="padding: 10px;"align="right">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;font-weight: bold;">See who I am through you.</span>
+					</div>
+                    <a href="" class="three"><img src="../img/平遥古城.jpg" width="250px" height="300px" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="" class="three"><img src="../img/王者荣耀皮肤灰.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;font-weight: bold;">See who I am through you.</span>
+					</div>
+				</td>
+				<td>
+					<a href="" class="three"><img src="../img/甘肃黑白灰.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;font-weight: bold;">See who I am through you.</span>
+					</div>
+				</td>
+				<td>
+					<a href="" class="three"><img src="../img/夕阳.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;font-weight: bold;">See who I am through you.</span>
+					</div>
+				</td>
+				<td>
+					<a href="" class="three"><img src="../img/你能听见吗.jpg" width="250px" height="300bvpx" /></a>
+					<div style="padding: 12px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;font-weight: bold;">See who I am through you.</span>
+					</div>
+				</td>
+			</tr>
+		</table>
+		
+		<!--页码部分-->
+		<div class="yemian">
+			<ul>
+				<li>共4页： 页次1/4页</li>
+				<li><a href="../家乡与远方主页.html">首页</a></li>
+				<li><a href="../家乡与远方主页.html">上一页</a></li>
+				<li><a href="分页1.html">1</a></li>
+				<li><a href="分页2.html">2</a></li>
+				<li><a href="分页3.html">3</a></li>
+				<li><a href="登录啊.html">4</a></li>
+				<li>下一页</li>
+				<li><a href="登录啊.html">尾页</a></li>
+			</ul>
+		</div>
+		
+		<!--底部banner-->
+		<div class="foot-box">
+			<div class="foot">
+				<br /><br />
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<div id="logo">
+					<div class="circle">
+					</div>
+					<br><br><br>
+					<div class="title">HOMETOWN</div>
+				</div>
+			</div>
+			<div class="foot-xia">
+				<span class="wenzi">计算机软件基地 &nbsp;版权所有京ICP备88888888号丨京公网安备1234568910111213号</span>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

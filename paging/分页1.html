@@ -1,0 +1,339 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>河南风景</title>
+		<link href="css/分页1.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery.js"></script>
+	</head>
+
+	<body>
+
+		<!--LOGO，导航-->
+		<div class="nav-box">
+			<div class="nav">
+				<a href="">
+					<h1>XinYang</h1></a>
+
+				<div class="nav-r">
+					<ul>
+						<li class="daohang">
+							<a href="../家乡与远方主页.html">首页</a>
+						</li>
+						<li class="daohang">
+							<a href="">青山</a>
+							<div>
+								<p>天目山</p>
+								<p>黄毛尖</p>
+								<p>金兰山森林公园</p>
+								<p>白云山</p>
+								<p>大苏山</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="">绿水</a>
+							<div>
+								<p>小潢河</p>
+								<p>浉河</p>
+								<p>九龙潭瀑布</p>
+								<p>香山湖景区</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="">红城</a>
+							<div>
+								<p>鄂豫皖苏区首府革命纪念馆</p>
+								<p>许世友将军故里</p>
+								<p>郑维山故里</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="" target="_blank">蓝天</a>
+							<div>
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="" target="_blank">毛尖茶香</a>
+							<div>
+								<p>高山云雾</p>
+								<p>雨前嫩芽</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="" target="_blank">了解我们</a>
+							<div>
+								<p>创办初衷</p>
+								<p>创想实现</p>
+								<p>我们想说</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			/*初始状态*/
+			$(".daohang div").hide();
+
+			/*鼠标滑过事件*/
+			$(".daohang").mouseenter(function() {
+
+				$(".daohang div").slideUp();
+				$(this).children("div").slideDown();
+
+				$(this).addClass("current").siblings().removeClass("current");
+
+			}) /*鼠标离开事件*/ .mouseleave(function() {
+
+				$(".daohang div").slideUp();
+				$(".daohang").removeClass("current");
+			})
+		</script>
+
+		<!--第一部分-->
+		<div class="center1">
+			<a href=""><img src="img/信阳banner.jpg"></a>
+		</div>
+
+		<!--第二部分-->
+		<div class="center2">
+			<div class="shang">
+				<ul>
+					<li>
+						<h1>河南魅力：</h1></li>
+					<li>
+						<p>特色</p>
+					</li>
+					<li>
+						<p>青山</p>
+					</li>
+					<li>
+						<p>绿水</p>
+					</li>
+					<li>
+						<p>红城</p>
+					</li>
+					<li>
+						<p>蓝天</p>
+					</li>
+					<li>
+						<p>茶园绿海</p>
+					</li>
+					<li>
+						<p>高山云雾</p>
+					</li>
+					<li>
+						<p>香山湖景区</p>
+					</li>
+					<li>
+						<p>九龙潭瀑布</p>
+					</li>
+					<li>
+						<p>金兰山</p>
+					</li>
+					<li>
+						<p>许世友将军故里</p>
+					</li>
+					<li>
+						<p>其他</p>
+					</li>
+				</ul>
+			</div>
+			<div class="shang">
+				<ul>
+					<li>
+						<h1>留恋家乡：</h1></li>
+					<li>
+						<p style="margin-left:-10px;">全部</p>
+					</li>
+					<li>
+						<p>毛尖茶香</p>
+					</li>
+					<li>
+						<p>秀丽风景</p>
+					</li>
+					<li>
+						<p>信阳热干面</p>
+					</li>
+					<li>
+						<p>友谊亲情</p>
+					</li>
+					<li>
+						<p>努力的日子</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!------Beautiful部分--------->
+		<div align="center">
+			<div id="left-sidebar">
+				<div align="left">
+					<h1>Beautiful</h1>
+					<span>——————————</span><br />
+					<h2>A Beautiful view that catches attention from every eyes.</h2>
+					<br /><br />
+					<span style="line-height: 30px;text-align: center; margin-top: 50px;">时光之里山南水北，我们与家乡之间似乎只会是越来越远。只希望以后，或者以后的以后，我们和世界交手的这多年,光彩依旧，兴致盎然。其实所谓远方，也不过是想让自己强大起来，强大到足以担负遥远的梦想和未来。</span>
+				</div>
+			</div>
+			<div id="contents">
+				<span><a href="../三级页面/网页大赛/Untitled-2.html"><img src="img/白色书桌-左.jpg" width="235px" height="300px"></a></span>
+			</div>
+			<div id="right-sidebar">
+				<span><a href="../三级页面/网页大赛/Untitled-2.html"><img src="img/白色书桌-右.jpg" width="235px" height="300px"></a></span>
+			</div>
+		</div>
+		<!------三张图片picture部分--------->
+		<div id="left-sidebar1">
+			<p style="font-weight: bold; color: gray;">beautiful 01</p>
+			<span style="font-weight: bold;">——</span><br />
+			<h2 style="font-family: 思源宋体;">九龙潭</h2>
+			<span style="font-family: 思源宋体;">九龙潭景区具有两大特点:一是山水生态赏心悦目;二是奇石景观赋寓道教玄妙。</span><br /><br />
+			<a href="../三级页面/网页大赛/Untitled-3.html" style="overflow: hidden;height:250px;width: 300px;display: inline-flex;"><img src="img/九龙潭.jpg" width="320px" height="250px" /></a>
+		</div>
+
+		<div id="contents2">
+			<p style="font-weight: bold; color: gray;">beautiful 02</p>
+			<span style="font-weight: bold;">——</span><br />
+			<h2 style="font-family: 思源宋体;">香&nbsp;山</h2>
+			<span style="font-family: 思源宋体;">这里山清水秀，石奇景幽，风光如画，素有"豫南西子"的美誉，是国家水利风景区。</span><br /><br />
+			<a href="../三级页面/网页大赛/Untitled-3.html" style="overflow: hidden;height:250px;width: 300px;display: inline-flex;"><img src="img/香山.jpg" width="320px" height="250px" /></a>
+		</div>
+
+		<div id="right-sidebar2">
+			<p style="font-weight: bold; color: gray;">beautiful 03</p>
+			<span style="font-weight: bold;">——</span><br />
+			<h2 style="font-family: 思源宋体;">英雄山</h2>
+			<span style="font-family: 思源宋体;">新县英雄山与新县鄂豫皖苏区革命博物馆比邻，山顶筑有大气的革命标志性建筑。</span><br /><br />
+			<a href="../三级页面/网页大赛/Untitled-1.html" style="overflow: hidden;height:250px;width: 300px;display: inline-flex;"><img src="img/英雄山.jpg" width="300px" height="250px" /></a>
+		</div>
+		<br />
+		<!--第三部分  介绍新县-->
+		<div class="dituwenzi">
+			<p style="font-weight: bold; color: gray;">Xinxian</p>
+			<span style="font-weight: bold;">———</span>
+		</div>
+		<div class="jieshi">
+			<br><br />
+			<h2>My dear hometown, through your eyes, see who I am.</h2>
+		</div>
+		<div class="tupian">
+			<img src="img/新县地图.jpg" width="450px" height="460px" />
+		</div>
+		<div class="xiaotupian">
+			<span><img src="img/新县地图.jpg" width="220px" height="220px" /></span><br />
+			<span><img src="img/新县地图.jpg" width="220px" height="220px" /></span>
+		</div>
+		<br />
+		<div class="tututu">
+			<span><img src="img/新县地图.jpg" width="225px" height="220px" /></span><br />
+			<span><img src="img/新县地图.jpg" width="223px" height="220px" /></span>
+		</div>
+		<br />
+		<!--美食部分-->
+		<div class="jieshi1">
+			<br><br />
+			<h2>My dear hometown, through your eyes, see who I am.</h2>
+		</div>
+			<div class="meishijieshao">
+			<p style="font-weight: bold; color: gray;">Xinxian</p>
+			<span style="font-weight: bold;">———</span>
+		</div>
+		<div class="meishitu">
+			<span><img src="img/信阳菜.jpg" width="450px" height="300px" /></span><br /><br />
+			<h3>信阳热干面特别好吃</h3>
+			<p style="font-family: 思源宋体;">delicious的好吃</p><br /><br />
+			<span style="font-family: 思源宋体;">信阳热干面是一道美味可口的汉族小吃，属于鄂菜系。久负盛名。据说，这一特色小吃最早还是从湖北武汉传来的。随着时间的变迁，信阳热干面根据当地人的饮食特点，取长补短，逐渐演变，形成了其独特的风味，吃后让人回味无穷。</span><br /><br />
+			<span style="font-family: 思源宋体;font-weight: 500;"><u>缓月</u></span>
+		</div>
+		<div class="meishitu1">
+			<span><img src="img/信阳热干面.jpg" width="450px" height="300px" /></span><br /><br />
+			<h3>信阳热干面特别好吃</h3>
+			<p style="font-family: 思源宋体;">delicious的好吃</p><br /><br />
+			<span style="font-family: 思源宋体;">信阳热干面是一道美味可口的汉族小吃，属于鄂菜系。久负盛名。据说，这一特色小吃最早还是从湖北武汉传来的。随着时间的变迁，信阳热干面根据当地人的饮食特点，取长补短，逐渐演变，形成了其独特的风味，吃后让人回味无穷。</span><br /><br />
+			<span style="font-family: 思源宋体;font-weight: 500;"><u>缓月</u></span>
+		</div>
+		
+		<!--底部banner栏-->
+		<div class="foot-box">
+			<div class="foot">
+				<br /><br />
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<div id="logo">
+					<div class="circle">
+					</div>
+					<br><br><br>
+					<div class="title">HOMETOWN</div>
+				</div>
+			</div>
+			<div class="foot-xia">
+				<span class="wenzi">计算机软件基地 &nbsp;版权所有京ICP备88888888号丨京公网安备1234568910111213号</span>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

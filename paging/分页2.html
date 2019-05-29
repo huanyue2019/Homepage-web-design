@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>山西风景</title>
+		<!--<link href="style/style.css" type="text/css" rel="stylesheet" />-->
+		<link href="css/分页2.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery.js"></script>
+	</head>
+
+	<body>
+
+		<!--LOGO，导航-->
+		<div class="nav-box">
+			<div class="nav">
+				<a href="">
+					<h1>ShanXi</h1></a>
+
+				<div class="nav-r">
+					<ul>
+						<li class="daohang">
+							<a href="shouye.html">首页</a>
+						</li>
+						<li class="daohang">
+							<a href="">云冈石窟</a>
+							<div>
+								<p>大同宾馆</p>
+								<p>悬空寺</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="erjiye01.html">五台山</a>
+							<div>
+								<p>台怀镇客栈</p>
+								<p>平遥古城</p>
+								<p>古城客栈</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="">王家大院</a>
+							<div>
+								<p>平遥古城</p>
+								<p>台怀镇客栈</p>
+								<p>悬空寺</p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="erjiye02.html" target="_blank">陈醋</a>
+							<div>
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+						</li>
+						<li class="daohang">
+							<a href="erjiye03.html" target="_blank">了解我们</a>
+							<div>
+								<p>创办初衷</p>
+								<p>创想实现</p>
+								<p>我们想说</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			/*初始状态*/
+			$(".daohang div").hide();
+
+			/*鼠标滑过事件*/
+			$(".daohang").mouseenter(function() {
+
+				$(".daohang div").slideUp();
+				$(this).children("div").slideDown();
+
+				$(this).addClass("current").siblings().removeClass("current");
+
+			}) /*鼠标离开事件*/ .mouseleave(function() {
+
+				$(".daohang div").slideUp();
+				$(".daohang").removeClass("current");
+			})
+		</script>
+
+		<!--第一部分-->
+		<div class="center1">
+			<a href="../三级页面/网页大赛/Untitled-3.html"><img src="img/山西banner.png"width="auto"height="300px"></a>
+		</div>
+
+		<!--第二部分-->
+		<br /><br /><br />
+		<h2 style="font-weight: bold;text-align: center;">Try independence</h2>
+		<div class="center4">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个网站的设计的初衷是看到了很多和我一样是跨越很多个省份来到这里的同学，或许是年少轻狂，或许是诗与远方，我们却依然深深眷恋着家，挂念着家里满头青丝成白发的父母。我们眷恋，但是我们不依赖。</p>
+			<div class="an1">
+				<a href="登录啊.html" class="one">登录论坛</a>
+				<a href="登录啊.html" class="two">了解我们</a>
+			</div>
+		</div>
+
+		<!--第三部分-->
+		<div class="luanluandetupain" style="height:300px;width: 530px;">
+			<div>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-3.html"><img src="../img/夕阳.jpg" width="100px" height="100px"></a></span>
+			</div>
+			<div>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-2.html"><img src="../img/乔家大院 (2).jpg"width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-1.html"><img src="../img/信阳.jpg" width="100px" height="100px"></a></span>
+			</div>
+			<div>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-3.html"><img src="../img/信阳.jpg"width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-2.html"><img src="../img/山西皇城相府.jpg"width="100px" height="100px"></a></span>
+				<!--<span><img src="../img/冰糖葫芦.jpg"width="100px" height="100px"></span> -->
+			</div>
+			<div>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-1.html"><img src="../img/平遥古城.jpg"width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-3.html"><img src="../img/应县木塔.jpg"width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-2.html"><img src="../img/山西皇城相府.jpg"width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-1.html"><img src="../img/校门口的松花江.jpg"width="100px" height="100px"></a></span>
+			</div>
+			<div>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-3.html"><img src="img/香山.jpg" width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-2.html"><img src="../img/平遥古城.jpg"width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-1.html"><img src="../img/校门口的松花江.jpg" width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-3.html"><img src="../img/冰糖葫芦.jpg"width="100px" height="100px"></a></span>
+				<span id="aaa"><a href="../三级页面/网页大赛/Untitled-2.html"><img src="../img/平遥古城.jpg" width="100px" height="100px"></a></span> 
+			</div>
+		</div>
+		<br />
+		<!--简洁的图片排列、第四部分-->
+		<div align="center" style="margin-top: 300px;">
+			<h2>———&nbsp;思念的风景&nbsp;———</h2>
+			<span>深醉方知你爱谁</span>
+		</div>
+		<table id="bagongge" cellspacing="15px" border="5px" bordercolor="white">
+			<tr>
+				<td>
+					<a href="" class="three"><img src="img/美食/500824729.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;">See who I am through you.</span>
+					</div>
+				</td>
+				<td>
+					<a href="" class="three"><img src="img/美食/刀削面.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;">See who I am through you.</span>
+					</div>
+
+				</td>
+				<td>
+					<a href="" class="three"><img src="img/美食/剔尖.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;">See who I am through you.</span>
+					</div>
+
+				</td>
+				<td>
+					<a href="" class="three"><img src="img/美食/荞面栲栳栳.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;">See who I am through you.</span>
+					</div>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="" class="three"><img src="img/美食/剔尖.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;">See who I am through you.</span>
+					</div>
+				</td>
+				<td>
+					<a href="" class="three"><img src="img/美食/过油肉.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;">See who I am through you.</span>
+					</div>
+				</td>
+				<td>
+					<a href="" class="three"><img src="img/美食/醋.jpg" width="250px" height="300px" /></a>
+					<div style="padding: 10px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;">See who I am through you.</span>
+					</div>
+				</td>
+				<td>
+					<a href="" class="three"><img src="img/美食/面塑.jpg" width="250px" height="300bvpx" /></a>
+					<div style="padding: 12px;">
+						<h4>我爱我家</h4>
+						<span>——</span><br />
+						<span style="font-family: 思源宋体;">See who I am through you.</span>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<!--翻页-->
+		<div class="yemian">
+			<ul>
+				<li>共4页： 页次1/4页</li>
+				<li><a href="">首页</a></li>
+				<li><a href="">上一页</a></li>
+				<li><a href="../家乡与远方主页.html">1</a></li>
+				<li><a href="分页1.html">2</a></li>
+				<li><a href="分页3.html">3</a></li>
+				<li><a href="分页3.html">4</a></li>
+				<li>下一页</li>
+				<li><a href="登录啊.html">尾页</a></li>
+			</ul>
+		</div>
+		
+		<div class="foot-box">
+			<div class="foot">
+				<br /><br />
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<ul class="ul1">
+					<h1>关于我们</h1>
+					<li>
+						<p>网站介绍</p>
+					</li>
+					<li>
+						<p>家乡动态</p>
+					</li>
+					<li>
+						<p>同学交流</p>
+					</li>
+					<li>
+						<p>注册登录</p>
+					</li>
+				</ul>
+				<div id="logo">
+					<div class="circle">
+					</div>
+					<br><br><br>
+					<div class="title">HOMETOWN</div>
+				</div>
+			</div>
+			<div class="foot-xia">
+				<span class="wenzi">计算机软件基地 &nbsp;版权所有京ICP备88888888号丨京公网安备1234568910111213号</span>
+			</div>
+
+		</div>
+
+
+	</body>
+
+</html>

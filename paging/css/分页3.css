@@ -1,0 +1,248 @@
+@charset "utf-8";
+body {
+	overflow-x: hidden;
+	background-color: #F1F1F1;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	align-content: center;
+	list-style: none;
+}
+
+img {
+	display: block;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*LOGO,导航*/
+
+.nav-box {
+	width: 100%;
+	height: 100px;
+	background-color: #18171e;
+}
+
+.nav {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.nav h1 {
+	float: left;
+	color: #7743ff;
+	line-height: 100px;
+	font-size: 50px;
+	font-family: "思源宋体";
+}
+
+.nav-r {
+	float: right;
+	position: relative;
+}
+
+.nav-r ul a {
+	display: block;
+	float: left;
+	color: #FFF;
+	line-height: 100px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	width: 100px;
+	height: 100px;
+	transition: background-color 0.6s;
+}
+
+.nav-r ul {
+	margin: 0 auto;
+}
+
+.nav-r ul li {
+	float: left;
+	width: 100px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.nav-r ul li div {
+	width: 100px;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	z-index: 100;
+}
+
+.nav-r ul li div p {
+	text-align: center;
+	line-height: 40px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #FFF;
+	font-size: 14px;
+	font-family: "微软雅黑"
+}
+
+.nav-r ul .current {
+	background-color: #7e4fd8;
+}
+
+/*第一部分*/
+
+.center1 {
+	width: 100%;
+	position: relative;
+	height: 281px;
+}
+
+.center1 a img {
+	margin: 0 auto;
+	margin-right: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -950px;
+	display: block;
+}
+.gansuzhengwen{
+	margin-top: 40px;
+	margin-left: 220px;
+}
+
+.sanlanwenzi{
+	width: 1000px;
+	height: 300px;
+	margin-top:150px;
+	margin-left: 180px;
+}
+.wangzhe{
+	margin-left: 220px;
+}
+.wangzhe td{
+	width: 332px;
+}
+
+#zuihou{
+	margin-left: 180px;
+	margin-top: 40px;
+}
+/*页码*/
+.yemian {
+	width: 825px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.yemian ul {
+	overflow: hidden;
+	margin-left: 150px;
+}
+
+.yemian ul li {
+	float: left;
+	border: #9a9a9a 1px solid;
+	font-size: 12px;
+	padding: 10px 10px;
+	;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+
+.yemian ul li:hover {
+	background-color: #7743ff;
+	color: #FFF;
+}
+
+
+/*底部banner*/
+.foot-box {
+	height: 310px;
+	background-color: #292e35;
+	margin-top:40px;
+}
+
+.foot {
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#logo {
+	width: 400px;
+	height: auto;
+}
+
+.circle {
+	margin-top: 5px;
+	width: 8rem;
+	height: 8rem;
+	background: #292e35;
+	margin-left: 25px;
+	border-radius: 50%;
+	box-shadow: inset -2rem 0 yellow;
+}
+
+.title {
+	font-family: 思源黑体;
+	color: white;
+	width: 200px;
+	font-size: 28px;
+	text-align: right;
+}
+
+.foot ul {
+	float: right;
+	padding: 0 65px;
+}
+
+.foot .ul1 {
+	background-image: url(../img/xx.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.foot h1 {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "微软雅黑";
+}
+
+.foot ul li p {
+	color: #cccccc;
+	font-size: 12px;
+	line-height: 40px;
+	font-family: "微软雅黑";
+}
+
+.foot ul li:hover p {
+	color:#7743ff;
+}
+
+.foot-xia {
+	height: 50px;
+	background-color: #262b30;
+	margin-top: 0px;
+}
+
+.wenzi {
+	display: block;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #aaaaaa;
+	width: 1180px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+	background-image: url(../img/xian.png);
+	background-repeat: no-repeat;
+}
+
+

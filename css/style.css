@@ -1,0 +1,451 @@
+
+
+
+@charset "utf-8";
+body {
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	display: block;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*LOGO,导航*/
+
+.nav-box {
+	width: 100%;
+	height: 100px;
+	background-color: #18171e;
+}
+
+.nav {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.nav h1 {
+	float: left;
+	color: #08f523;
+	line-height: 100px;
+	font-size: 50px;
+	font-family: "思源宋体";
+}
+
+.nav-r {
+	float: right;
+	position: relative;
+}
+
+.nav-r ul a {
+	display: block;
+	float: left;
+	color: #FFF;
+	line-height: 100px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	width: 100px;
+	height: 100px;
+	transition: background-color 0.6s;
+}
+
+.nav-r ul {
+	margin: 0 auto;
+}
+
+.nav-r ul li {
+	float: left;
+	width: 100px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.nav-r ul li div {
+	width: 100px;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	z-index: 100;
+}
+
+.nav-r ul li div p {
+	text-align: center;
+	line-height: 40px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #FFF;
+	font-size: 14px;
+	font-family: "微软雅黑"
+}
+
+.nav-r ul .current {
+	background-color: green;
+}
+
+
+/*第一部分*/
+.xia {
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+.xia ul {
+	width: 1180px;
+	height: 305px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.xia ul li {
+	float: left;
+	margin-right: 35px;
+}
+
+.xia ul li a {
+	display: block;
+	width: 370px;
+	overflow: hidden;
+	height: 268px;
+}
+
+.xia ul li img {
+	width: 370px;
+	height: 268px;
+	transform: scale(1.2);
+	transition: transform 0.6s;
+}
+
+.xia ul li p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #000;
+	font-family: "微软雅黑";
+}
+
+.xia ul li:hover img {
+	transform: scale(1)
+}
+
+.xia ul li:hover p {
+	color: #22F73B;
+}
+
+.xia2 {
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+.xia2 ul li {
+	float: left;
+	padding-right: 1px;
+}
+
+.xia2 ul li:hover .renwu {
+	color: #e65932;
+}
+
+.xia2 ul li a {
+	display: block;
+	margin: 0 auto;
+}
+
+.xia2 ul li a img {
+	width: 235px;
+	height: 350px;
+}
+
+.xia2 ul li img {
+	margin: 0 auto;
+}
+
+.xia2 ul li .renwu {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 14px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+
+.xia2 .tp {
+	width: 235px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+
+.xia2 .tp p {
+	width: 217px;
+	height: 93px;
+	background: rgba(221, 86, 49, 0.8);
+	position: absolute;
+	left: 0;
+	/*bottom: -100px;*/
+	color: #FFF;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	padding-left: 15px;
+	padding-top: 7px;
+}
+
+.xia2 .tp p span {
+	display: block;
+	font-size: 14px;
+	line-height: 25px;
+	margin-top: 5px;
+	color: #f1f1f1;
+}
+
+.center4 {
+	width: 888px;
+	height: 170px;
+	margin: 0 auto;
+	padding-top: 45px;
+	position: relative;
+	align-content: center;
+}
+
+.center4 p {
+	text-align: center;
+	font-size: 13px;
+	color: #5a5a5a;
+	line-height: 25px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	position: absolute;
+	left: 50%;
+	margin-left: -370px;
+}
+
+.an1 {
+	width: 315px;
+	height: 41px;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	bottom: 10px;
+}
+
+.an1 ul {
+	overflow: hidden;
+}
+
+.an1 .one {
+	display: block;
+	float: left;
+	width: 140px;
+	line-height: 42px;
+	color: #333;
+	text-align: center;
+	border-radius: 7px;
+	border: 1px solid #CCC;
+	transition: background-color 0.6s;
+}
+
+.an1 .one:hover {
+	background-color: #E65932;
+	color: #FFF;
+}
+
+.an1 .two {
+	display: block;
+	float: right;
+	width: 140px;
+	line-height: 42px;
+	color: #333;
+	text-align: center;
+	border-radius: 7px;
+	border: 1px solid #CCC;
+	transition: background-color 0.6s;
+}
+
+.an1 .two:hover {
+	background-color: #E65932;
+	color: #FFF;
+}
+
+.xia4 {
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 100px;
+}
+
+.xia4 a {
+	float: left;
+	margin: 0 auto;
+	width: 295px;
+	height: 285px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.xia4 a img {
+	transform: scale(1.1);
+	transition: transform 0.6s;
+}
+
+.xia4 a div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 80px;
+	padding-left: 30px;
+	opacity: 0;
+	transition: opacity 0.6s;
+}
+
+.xia4 a div h1 {
+	color: #FFF;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+
+.xia4 a div p {
+	color: #FFF;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	padding-top: 20px;
+}
+
+.xia4 a:hover div {
+	opacity: 1;
+}
+
+.xia4 a:hover img {
+	transform: scale(1);
+}
+
+/*页码*/
+/*页码*/
+.yemian {
+	width: 825px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.yemian ul {
+	overflow: hidden;
+	margin-left: 150px;
+}
+
+.yemian ul li {
+	float: left;
+	border: #9a9a9a 1px solid;
+	font-size: 12px;
+	padding: 10px 10px;
+	;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+
+.yemian ul li:hover {
+	background-color:#22f73b;;
+	color: #FFF;
+}
+/*底部banner*/
+.foot-box {
+	height: 360px;
+	background-color: #292e35;
+	margin-top: 130px;
+}
+
+.foot {
+	width: 1180px;
+	;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#logo {
+	width: 400px;
+	height: auto;
+}
+
+.circle {
+	margin-top: 30px;
+	width: 10rem;
+	height: 10rem;
+	background: #292e35;
+	margin-left: 25px;
+	border-radius: 50%;
+	box-shadow: inset -2rem 0 yellow;
+}
+
+.title {
+	font-family: Vollkorn;
+	color: white;
+	margin-bottom: 40px;
+	width: 300px;
+	font-size: 28px;
+	text-align: left;
+	margin: -0rem;
+}
+
+.foot ul {
+	float: right;
+	padding: 0 65px;
+}
+
+.foot .ul1 {
+	background-image: url(../img/xx.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.foot h1 {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "微软雅黑";
+}
+
+.foot ul li p {
+	color: #cccccc;
+	font-size: 12px;
+	line-height: 40px;
+	font-family: "微软雅黑";
+}
+
+.foot ul li:hover p {
+	color: #f25618;
+}
+
+.foot-xia {
+	height: 50px;
+	background-color: #262b30;
+}
+
+.wenzi {
+	display: block;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #aaaaaa;
+	width: 1180px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+	background-image: url(../img/xian.png);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}

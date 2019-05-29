@@ -1,0 +1,341 @@
+@charset "utf-8";
+body {
+	overflow-x: hidden;
+	background-color: #F1F1F1;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	align-content: center;
+	list-style: none;
+}
+
+img {
+	display: block;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*LOGO,导航*/
+
+.nav-box {
+	width: 100%;
+	height: 100px;
+	background-color: #18171e;
+}
+
+.nav {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.nav h1 {
+	float: left;
+	color: #E65932;
+	line-height: 100px;
+	font-size: 50px;
+	font-family: "思源宋体";
+}
+
+.nav-r {
+	float: right;
+	position: relative;
+}
+
+.nav-r ul a {
+	display: block;
+	float: left;
+	color: #FFF;
+	line-height: 100px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	width: 100px;
+	height: 100px;
+	transition: background-color 0.6s;
+}
+
+.nav-r ul {
+	margin: 0 auto;
+}
+
+.nav-r ul li {
+	float: left;
+	width: 100px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.nav-r ul li div {
+	width: 100px;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	z-index: 100;
+}
+
+.nav-r ul li div p {
+	text-align: center;
+	line-height: 40px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #FFF;
+	font-size: 14px;
+	font-family: "微软雅黑"
+}
+
+.nav-r ul .current {
+	background-color: #E65932;
+}
+
+
+/*第一部分*/
+
+.center1 {
+	width: 100%;
+	position: relative;
+	height:300px;
+}
+
+.center1 a img {
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+	display: block;
+}
+
+
+/*第二部分*/
+
+.center4 {
+	width: 888px;
+	height: 170px;
+	margin: 0 auto;
+	padding-top: 45px;
+	position: relative;
+	align-content: center;
+}
+
+.center4 p {
+	text-align: center;
+	font-size: 13px;
+	color: #5a5a5a;
+	line-height: 25px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	position: absolute;
+	left: 50%;
+	margin-left: -370px;
+}
+
+.an1 {
+	width: 315px;
+	height: 41px;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	bottom: 10px;
+}
+
+.an1 ul {
+	overflow: hidden;
+}
+
+.an1 .one {
+	display: block;
+	float: left;
+	width: 140px;
+	line-height: 42px;
+	color: #333;
+	text-align: center;
+	border-radius: 7px;
+	border: 1px solid #CCC;
+	transition: background-color 0.6s;
+}
+
+.an1 .one:hover {
+	background-color: #E65932;
+	color: #FFF;
+}
+
+.an1 .two {
+	display: block;
+	float: right;
+	width: 140px; 
+	line-height: 42px;
+	color: #333;
+	text-align: center;
+	border-radius: 7px;
+	border: 1px solid #CCC;
+	transition: background-color 0.6s;
+}
+
+.an1 .two:hover {
+	background-color: #E65932;
+	color: #FFF;
+}
+
+
+/*第三部分  乱乱的图片*/
+
+.luanluandetupain {
+	margin: 0 auto;
+	transform: rotate(-45deg);
+	margin-left:330px;
+	margin-top: -76px;
+}
+
+#aaa {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 0 1px 2px 0;
+	transition: 1s;
+}
+
+#aaa:hover {
+	transform: scale(1.2);
+}
+
+/*bug*/
+#bagongge {
+	margin-left: 145px;
+	margin-top: 40px;
+}
+
+/*.three img{
+	overflow: hidden;
+	position: relative;
+}
+.three :hover img{
+	transform: scale(1.2);
+	transition: transform 0.6s;
+}*/
+
+
+/*翻页*/
+
+.yemian {
+	width: 825px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.yemian ul {
+	overflow: hidden;
+	margin-left: 150px;
+}
+
+.yemian ul li {
+	float: left;
+	border: #9a9a9a 1px solid;
+	font-size: 12px;
+	padding: 10px 10px;
+	;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+
+.yemian ul li:hover {
+	background-color: #f25618;
+	color: #FFF;
+}
+
+
+/*底部的logo及其介绍*/
+
+.foot-box {
+	height: 360px;
+	background-color: #292e35;
+	margin-top: 130px;
+}
+
+.foot {
+	width: 1180px;
+	;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#logo {
+	width: 400px;
+	height: auto;
+}
+
+.circle {
+	margin-top: 30px;
+	width: 10rem;
+	height: 10rem;
+	background: #292e35;
+	margin-left: 20px;
+	border-radius: 50%;
+	box-shadow: inset -2rem 0 yellow;
+}
+
+.title {
+	font-family: Vollkorn;
+	color: white;
+	margin-bottom: 40px;
+	width: 280px;
+	font-size: 28px;
+	text-align: left;
+	margin: -0rem;
+}
+
+.foot ul {
+	float: right;
+	padding: 0 65px;
+}
+
+.foot .ul1 {
+	background-image: url(../img/xx.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.foot h1 {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "微软雅黑";
+}
+
+.foot ul li p {
+	color: #cccccc;
+	font-size: 12px;
+	line-height: 40px;
+	font-family: "微软雅黑";
+}
+
+.foot ul li:hover p {
+	color: #f25618;
+}
+
+.foot-xia {
+	height: 50px;
+	background-color: #262b30;
+}
+
+.wenzi {
+	display: block;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #aaaaaa;
+	width: 1180px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+	background-image: url(../img/xian.png);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
